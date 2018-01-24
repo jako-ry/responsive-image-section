@@ -71,6 +71,23 @@ p {
     line-height: 1.4;
   }
 
+  section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .text {
+    width: 48%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .image {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -78,6 +95,11 @@ p {
   html {
     font-size: 120%;
     line-height: 1.5;
+  }
+
+  section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
 }
